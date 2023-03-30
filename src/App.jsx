@@ -1,13 +1,18 @@
-import { useState } from "react";
+import CssBaseline from "@mui/material/CssBaseline";
 import "./App.css";
+import Header from "./components/Header";
 import AppthemeProvider from "./themes/AppthemeProvider";
+import { Box } from "@mui/material";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <AppthemeProvider>
-      <div className="App"></div>;
+      <CssBaseline />
+      <Box sx={{ display: "flex", flexDirection: "column", height: "100vh" }}>
+        <Box>
+          <Header />
+        </Box>
+      </Box>
     </AppthemeProvider>
   );
 }
