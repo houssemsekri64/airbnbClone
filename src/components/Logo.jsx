@@ -12,7 +12,7 @@ function Logo() {
       <Typography
         sx={{
           ml: 1,
-          color: (theme) => theme.palette.secondary.main,
+          color: "secondary.main",
           fontSize: "28px",
           fontWeight: "bold",
         }}

@@ -25,7 +25,7 @@ function LocationSearch() {
             <Button key={choice.id}>
               <Typography
                 sx={{
-                  color: (theme) => theme.palette.primary,
+                  color: "primary.main",
                   fontWeight: "bold",
                 }}
               >

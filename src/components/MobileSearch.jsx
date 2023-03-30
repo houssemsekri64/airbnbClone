@@ -8,7 +8,7 @@ import { VscSettings } from "react-icons/vsc";
 function MobileSearch() {
   return (
     <Paper
-      component="from"
+      component="form"
       sx={{
         p: "2px 4px",
         display: "flex",
